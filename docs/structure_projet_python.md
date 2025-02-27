@@ -1,4 +1,12 @@
-# Structure d'un Projet Python et Bonnes Pratiques
+def ma_fonction():    # Début du bloc fonction
+    x = 1            # Indenté avec 4 espaces
+    if x > 0:        # Début du bloc if
+        print(x)     # Indenté avec 8 espaces
+    return x         # Retour au niveau fonction
+
+class MaClasse:      # Début du bloc classe
+    def __init__(self):  # Méthode indentée
+        self.x = 1       # Corps de méthode indenté Structure d'un Projet Python et Bonnes Pratiques
 
 *Python* est un langage de programmation très polyvalent, utilisé dans divers domaines allant du développement web aux sciences de données en passant par l'automatisation. La structure d'un projet Python peut varier en fonction de son objectif, mais il existe des pratiques courantes qui facilitent l'organisation, la réutilisabilité, et la maintenance du code.
 
